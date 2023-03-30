@@ -123,3 +123,66 @@ nav ul button {
     border: 2px solid #fff;
     cursor: pointer;
 }
+
+.content {
+    /* background: #a3dbbe; */
+    width: 1020px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.heading {
+    /* background: palevioletred; */
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+
+.heading p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.heading h3 {
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+}
+
+.all-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card {
+    width: 20%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.container h4 {
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.container p {
+    opacity: 0.5;
+}
+
+#btn-card {
+    padding-top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
