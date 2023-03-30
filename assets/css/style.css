@@ -13,11 +13,8 @@ body,
 
 button {
     border: none;
+    cursor: pointer;
 }
-
-/* .container {
-    margin: 0 100px;
-} */
 
 header {
     background: #0A2640;
@@ -186,3 +183,82 @@ nav ul button {
     cursor: pointer;
 }
 
+
+.other-services {
+    margin-top: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-services img {
+    width: 400px;
+}
+
+.txt {
+    /* background: forestgreen; */
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.other-services button {
+    background: #0A2640;
+    color: #fff;
+    padding: 16px 56px;
+    border-radius: 56px;
+    margin-top: 40px;
+}
+
+.txt h3 {
+    font-family: "Manrope";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.other-services ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.other-services li {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.second_services {
+    margin-top: 60px;
+    flex-direction: row-reverse;
+}
+
+.second_services li {
+    background-color: #0A2640;
+    margin: 20px 0;
+    width: 500px;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.second_services li:nth-child(2) {
+    background-color: #fff;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.second_services li:nth-child(3) {
+    background-color: #fff;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
