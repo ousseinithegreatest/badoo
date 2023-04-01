@@ -345,6 +345,7 @@ nav ul button {
 .custommers .details {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .custommers .details ul {
@@ -361,4 +362,106 @@ nav ul button {
 .details li {
     padding: 20px 0;
     border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+
+.blog {
+    margin-top: 60px;
+}
+
+.blog h3 {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(166, 167, 167);
+}
+
+.blog p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.all-posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.post {
+    width: 200px;
+    height: auto;
+}
+
+
+.post p {
+    font-weight: 200;
+    font-size: small;
+    color: #0A2640;
+}
+
+.author {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.author img {
+    width: 36px;
+    height: 36px;
+}
+
+.author p {
+    margin-bottom: 0;
+    margin-top: 11px;
+}
+
+.btn-load {
+    margin-top: 30px;
+    margin-left: 461px;
+}
+
+.btn-load button {
+    border: 2px solid #0A2640;
+    background: #fff;
+    padding: 16px 56px;
+    border-radius: 56px;
+}
+
+.contact {
+    background: #0A2640;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 12px;
+}
+
+
+.contact .contenu {
+    /* background: #69E6A6; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact .contenu h4 {
+    font-size: 50px;
+}
+
+.form {
+    padding-bottom: 40px;
+}
+
+.form input {
+    height: 36px;
+    border: none;
+    padding: 0 20px;
+    width: 260px;
+    border-radius: 240px;
+}
+
+.form button {
+    background: #69E6A6;
+    padding: 10px 56px;
+    border-radius: 56px;
 }
